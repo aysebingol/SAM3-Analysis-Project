@@ -49,7 +49,7 @@ for filename in os.listdir(pred_path):
         else:
             print(f" Eşleşen maske bulunamadı: {gt_filename}")
 
-# Raporu Oluştur
+
 if results:
     df = pd.DataFrame(results)
     df.to_csv("gercek_performans_raporu.csv", index=False)
