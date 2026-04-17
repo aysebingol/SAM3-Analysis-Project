@@ -19,4 +19,4 @@ for img_info in data['images']:
                 poly = np.array(seg).reshape((len(seg) // 2, 2)).astype(np.int32)
                 cv2.fillPoly(mask, [poly], 255)
     cv2.imwrite(os.path.join(output_dir, img_info['file_name']), mask)
-print("✅ Gerçek maskeler 'real_masks' klasörüne kaydedildi!")
+print(" Gerçek maskeler 'real_masks' klasörüne kaydedildi!")
