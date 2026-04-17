@@ -1,4 +1,5 @@
 SAM 3 ile Yaprak Segmentasyonu ve Performans Analizi
+
 Bu proje, otonom tarım araçları için SAM 3 (Segment Anything Model) kullanarak yaprak segmentasyonu (bölütleme) ve modelin başarısını ölçmek için geliştirilen analiz araçlarını içermektedir.
  Proje Kapsamı
 Ozan Yılmaz tarafından belirtilen gereksinimler doğrultusunda:
